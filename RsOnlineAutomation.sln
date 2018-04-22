@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RsOnlineAutomationFramework", "RsOnlineAutomationFramework\RsOnlineAutomationFramework.csproj", "{9A3C8B18-5F42-4C95-B94E-2B9925A01F7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RsOnlineAutomationTest", "RsOnlineAutomationTest\RsOnlineAutomationTest.csproj", "{5F71832A-1346-4DCB-BA8D-87CB6E9EC46B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9A3C8B18-5F42-4C95-B94E-2B9925A01F7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A3C8B18-5F42-4C95-B94E-2B9925A01F7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A3C8B18-5F42-4C95-B94E-2B9925A01F7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A3C8B18-5F42-4C95-B94E-2B9925A01F7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F71832A-1346-4DCB-BA8D-87CB6E9EC46B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F71832A-1346-4DCB-BA8D-87CB6E9EC46B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F71832A-1346-4DCB-BA8D-87CB6E9EC46B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F71832A-1346-4DCB-BA8D-87CB6E9EC46B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8362299A-EE2A-47DC-A177-22657E0CDA29}
+	EndGlobalSection
+EndGlobal
