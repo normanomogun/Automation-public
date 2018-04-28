@@ -33,9 +33,6 @@ namespace RsOnlineAutomationFramework
                 default:
                     throw new InvalidOperationException();
                    
-
-                    
-                    
             }
         
             
