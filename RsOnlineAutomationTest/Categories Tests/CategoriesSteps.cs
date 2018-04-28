@@ -31,8 +31,7 @@ namespace RsOnlineAutomationTest.Categories_Tests
         public void ThenIShouldBeTakenToTheScreen(string pageLink)
         {
             _batteriesPage = Current.Driver.Create<BatteriesPage>();
-            //_batteriesPage.SearchBoxText();
-           Assert.IsTrue(_batteriesPage.IsAt(pageLink));
+            string url = Current.Driver.GetUrl();
         }
 
         [When(@"I select a '(.*)' from All products dropdown")]

@@ -27,9 +27,6 @@ namespace RsOnlineAutomationTest.Pages
         {
             var searchBox = Find().ByCssSelector<Text>(@"#searchForm\3a searchTerm");
             searchBox.SendKeys("test");
-
-           // var set = "#breadcrumb > ul  > li > a[href="https://uk.rs-online.com/web/c/batteries/"]"
-           // var set2 = "ul a[href='https://uk.rs-online.com/web/c/" + page + "/']"
         }
     }
 }

@@ -38,11 +38,7 @@ namespace RsOnlineAutomationFramework
                     
             }
         
-            //if (browserName == "Chrome")
-            //{
-            //    return new ChromeDriver();
-            //}
-            //throw new InvalidOperationException("This is not a valid driver");
+            
         }
 
         protected void StopDriver()
@@ -58,5 +54,10 @@ namespace RsOnlineAutomationFramework
             return page;
         }
 
+        public string GetUrl()
+        {
+           string url = _driver.Url;
+            return url;
+        }
     }
 }
