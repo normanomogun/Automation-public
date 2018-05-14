@@ -58,10 +58,6 @@ namespace RsOnlineAutomationTest.Pages
             var contextMenu = Find()
                 .ByCssSelector<ContextMenu>("ul.verticalMenu.showVerticalMenu");
             
-
-            //contextMenu.selectBytext(category);
-            //allProductsDropdown.selectBytext(category);
-
         }
     }
 }

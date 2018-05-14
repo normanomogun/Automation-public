@@ -59,7 +59,7 @@ namespace RsOnlineAutomationFramework
 
             foreach (var element in elements)   
             {
-                    var elem = new T();
+                var elem = new T();
                 elem.SetElement(element);
                 list.Add(elem);
             }

@@ -13,7 +13,7 @@ namespace RsOnlineAutomationFramework.Elements
         private SelectElementHandler _selectElement;
         public void selectBytext(string text)
         {
-            //_selectElement.SetSelectElement.DeselectByText(text);
+            
         }
 
         public void ClickOnElement()
